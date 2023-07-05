@@ -16,6 +16,7 @@ from tests.constants import DEFAULT_NETWORK_ID
 from tests.constants import SEVEN_DAYS_S
 
 HOST = os.environ.get('V3_API_HOST', DEFAULT_HOST)
+HOST = 'https://localhost:8545'
 NETWORK_ID = int(os.environ.get('NETWORK_ID', DEFAULT_NETWORK_ID))
 
 
@@ -221,7 +222,7 @@ class TestAuthLevels():
 
         # Connect to local Ethereum node.
         web3 = Web3()
-        web3.eth.defaultAccount = web3.eth.accounts[1]
+        web3.eth.default_account = web3.eth.accounts[1]
 
         # Create client WITHOUT any private keys.
         client = Client(
