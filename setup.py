@@ -6,19 +6,19 @@ REQUIREMENTS = [
     'aiohttp>=3.8.1',
     'cytoolz>=0.12.1',
     'dateparser>=1.0.0',
-    'ecdsa>=0.16.0',
+    'ecdsa>=0.18.0',
     'eth_keys',
-    'eth-account>=0.4.0',
-    'mpmath>=1.0.0',
-    'requests>=2.22.0',
-    'six>=1.14',
-    'sympy>=1.6',
-    'web3>=5.0.0',
+    'eth-account>=0.9.0',
+    'mpmath>=1.3.0',
+    'requests>=2.31.0',
+    'six>=1.16.0',
+    'sympy>=1.12.0',
+    'web3>=6.5.0',
 ]
 
 setup(
     name='dydx-v3-python',
-    version='2.0.1a',
+    version='2.0.1',
     packages=find_packages(),
     package_data={
         'dydx3': [
@@ -47,6 +47,7 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.11.4',
         'Programming Language :: Python',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
