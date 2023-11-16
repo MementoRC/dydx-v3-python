@@ -18,7 +18,7 @@ REQUIREMENTS = [
 
 setup(
     name='dydx-v3-python',
-    version='2.0.1',
+    version='2.0.2',
     packages=find_packages(),
     package_data={
         'dydx3': [
@@ -29,7 +29,7 @@ setup(
     description='dYdX Python REST API for Limit Orders',
     long_description=LONG_DESCRIPTION,
     long_description_content_type='text/markdown',
-    url='https://github.com/dydxprotocol/dydx-v3-python',
+    url='https://github.com/mementorc/dydx-v3-python',
     author='dYdX Trading Inc.',
     license='Apache 2.0',
     author_email='contact@dydx.exchange',
