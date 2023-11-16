@@ -3,7 +3,7 @@ cytoolz>=0.12.1
 dateparser>=1.0.0
 ecdsa>=0.18.0
 eth_keys
-eth-account>=0.9.0
+eth-account>=0.8.0
 mpmath>=1.3.0
 requests>=2.31.0
 six>=1.16.0
