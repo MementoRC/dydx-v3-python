@@ -221,7 +221,7 @@ class TestAuthLevels():
 
         # Connect to local Ethereum node.
         web3 = Web3()
-        web3.eth.defaultAccount = web3.eth.accounts[1]
+        web3.eth.default_account = web3.eth.accounts[1]
 
         # Create client WITHOUT any private keys.
         client = Client(
